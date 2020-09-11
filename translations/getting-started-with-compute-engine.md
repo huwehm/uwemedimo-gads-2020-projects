@@ -1,4 +1,4 @@
-# LAB: Google Cloud Fundamentals: Getting Started with Compute Engine
+# Google Cloud Fundamentals: Getting Started with Compute Engine
 
 ## Objectives:
 
@@ -16,7 +16,7 @@ In this lab, you will learn how to perform the following tasks:
 
           gcloud compute instances create my-vm-1 --machine-type "n1-standard-1" --image-project "debian-cloud" --image "debian-9-stretch-v20190213" --subnet "default" --tags http
 
-          gcloud compute firewall-rules create allow-http --action=ALLOW --destination=INGRESS --rules=http:80 --target-tags=http
+          gcloud compute firewall-rules create allow-http --action=ALLOW --destination=INGRESS --rules=http:80 --target-tags=http-server
 
 2. Create a virtual machine using the gcloud command-line interface.
 
